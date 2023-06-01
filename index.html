@@ -54,11 +54,11 @@
             font-style: inherit;
         }
 
-        .container.w-100 {
+        .container.w-75.twodivrow {
             background-color: white;
         }
 
-        .container.w-100:hover {
+        .container.w-75.twodivrow:hover {
             box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
         }
 
@@ -83,34 +83,43 @@
             transition: all 0.3s ease-in-out;
             text-decoration: none;
         }
-        #courses:hover{
+
+        #courses:hover {
             background-color: #ac8ebd;
         }
+
         .button-default {
-    padding: 16px 27px;
-    font-weight: 600;
-    margin-top: 21px;
-    border-radius: 50px;
-    border: 2px solid #5e068a;
-}
-.button-default {
-    background: #5e068a none repeat scroll 0 0;
-    color: #ffffff;
-    display: inline-block;
-    font-size: 14px;
-    margin: 0;
-    text-transform: uppercase;
-    font-family: 'Montserrat', sans-serif;
-    -webkit-transition: all 0.3s ease-in-out;
-    transition: all 0.3s ease-in-out;
-    text-decoration: none;
-}
-a{
-    outline: medium none;
-}
-.modalbody{
-border: 0;
-}
+            padding: 16px 27px;
+            font-weight: 600;
+            margin-top: 21px;
+            border-radius: 50px;
+            border: 2px solid #5e068a;
+        }
+
+        .button-default {
+            background: #5e068a none repeat scroll 0 0;
+            color: #ffffff;
+            display: inline-block;
+            font-size: 14px;
+            margin: 0;
+            text-transform: uppercase;
+            font-family: 'Montserrat', sans-serif;
+            -webkit-transition: all 0.3s ease-in-out;
+            transition: all 0.3s ease-in-out;
+            text-decoration: none;
+        }
+
+        a {
+            outline: medium none;
+        }
+
+        .modalbody {
+            border: 0;
+        }
+    
+        img{
+            width: 100%;
+        }
 
         /* #carouselExampleCaptions{
                 background-color: black;
@@ -202,7 +211,7 @@ border: 0;
                         emerging technologies like BIG DATA ,Hadoop, Spark, Data Science,Machine <br>
                         Learning,PYTHON,Deep Learning & AI</p>
                     <div class="text-start">
-                        <a href="" id="courses" >View Courses</a>
+                        <a href="" id="courses">View Courses</a>
                     </div>
                 </div>
             </div>
@@ -234,7 +243,7 @@ border: 0;
     <br>
     <!-- Button trigger modal -->
     <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
-         modal form
+        modal form
     </button>
 
     <!-- Modal -->
@@ -245,7 +254,7 @@ border: 0;
                     <div class="modal-header">
                         <h5 class="modal-title">Get Training Quote For Free</h5>
                         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                      </div>
+                    </div>
                     <input type="text" placeholder="Name" class="modalbody">
                     <hr>
                     <input type="email" placeholder="Email" class="modalbody">
@@ -266,7 +275,8 @@ border: 0;
                     <hr>
                     <textarea name="" id="" cols="30" rows="10" class="modalbody">Comments</textarea>
                     <hr>
-                    <button type="button" data-bs-dismiss="modal" style="background-color:#5d2b7a;color:white;padding:7px 30px 5px 30px;">SUBMIT</button>
+                    <button type="button" data-bs-dismiss="modal"
+                        style="background-color:#5d2b7a;color:white;padding:7px 30px 5px 30px;">SUBMIT</button>
                 </div>
             </div>
         </div>
@@ -289,7 +299,7 @@ border: 0;
                     the current industry requirements. Our Vision is to provide 100% placements to students those who
                     enroll
                     with us for our specialized courses.</p><br><br>
-                    <a class="button-default" href="about">Learn More</a>
+                <a class="button-default" href="about">Learn More</a>
             </div>
             <div class="col-lg-6 col-sm-12">
                 <img src="./images/girl.jpg" alt="girl">
@@ -299,12 +309,11 @@ border: 0;
     <br>
     <section>
         <h2 class="text-center pt-5" style="color:#5d2b7a">OUR <span style="color:#ac8ebd">COURSES</span></h2><br><br>
-        <div class="container w-100">
+        <div class="container w-75 twodivrow">
             <div class="row">
-                <div class="col-lg-6 col-sm-12"><img src="./images/girl2.jpg" alt="girl2"
-                        style="height: 331px;">
+                <div class="col-lg-6 col-md-6 col-sm-12"><img src="./images/girl2.jpg" alt="girl2" style="height: 331px;">
                 </div>
-                <div class="col-lg-6 col-sm-12">
+                <div class="col-lg-6 col-md-6 col-sm-12">
                     <h3 style="
                         font-size: 20px;
                         line-height: 25px;
