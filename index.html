@@ -16,119 +16,10 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
         integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <style>
-        #carouselExampleCaptions img {
-            height: 500px;
-            opacity: 1.9;
-        }
-
-        #carouselExampleCaptions h1 {
-            color: white;
-            font-size: 60px;
-            font-weight: bold;
-        }
-
-        #carouselExampleCaptions p {
-            color: white;
-        }
-
-        /* #courses{
-                background-color: #5d2b7a;
-                color: white;
-                border-radius: 100px;
-                padding-left: 26px;
-                padding-right: 26px;
-                padding-top: 16px;
-                padding-bottom: 26px;
-                font-size: 20px;
-            }
-            #courses:hover{
-                background-color: #ac8ebd;
-            } */
-        .modal-body {
-            border: 0;
-        }
-
-        strong {
-            font-weight: 400;
-            font-style: inherit;
-        }
-
-        .container.w-75.twodivrow {
-            background-color: white;
-        }
-
-        .container.w-75.twodivrow:hover {
-            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-        }
-
-        section {
-            background-color: #f5f5f5;
-        }
-
-        #courses {
-            background-color: #5d2b7a;
-            padding: 20px 40px;
-            margin-top: 30px;
-            border-radius: 50px;
-            font-weight: 600;
-            font-size: 16px;
-            background: #5e068a none repeat scroll 0 0;
-            color: #ffffff;
-            display: inline-block;
-            margin: 0;
-            text-transform: uppercase;
-            font-family: 'Montserrat', sans-serif;
-            -webkit-transition: all 0.3s ease-in-out;
-            transition: all 0.3s ease-in-out;
-            text-decoration: none;
-        }
-
-        #courses:hover {
-            background-color: #ac8ebd;
-        }
-
-        .button-default {
-            padding: 16px 27px;
-            font-weight: 600;
-            margin-top: 21px;
-            border-radius: 50px;
-            border: 2px solid #5e068a;
-        }
-
-        .button-default {
-            background: #5e068a none repeat scroll 0 0;
-            color: #ffffff;
-            display: inline-block;
-            font-size: 14px;
-            margin: 0;
-            text-transform: uppercase;
-            font-family: 'Montserrat', sans-serif;
-            -webkit-transition: all 0.3s ease-in-out;
-            transition: all 0.3s ease-in-out;
-            text-decoration: none;
-        }
-
-        a {
-            outline: medium none;
-        }
-
-        .modalbody {
-            border: 0;
-        }
-    
-        img{
-            width: 100%;
-        }
-
-        /* #carouselExampleCaptions{
-                background-color: black;
-            } */
-    </style>
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-lg" style="background-color: #5d2b7a; height: 39px; font-size: 13px;">
+    <nav class="navbar navbar-expand-lg col-lg-12 col-m-12" style="background-color: #5d2b7a; height: 39px; font-size: 5px;">
         <div class="container">
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                 data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
@@ -248,10 +139,10 @@
 
     <!-- Modal -->
     <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-        <div class="modal-dialog">
+        <div class="modal-dialog w-75">
             <div class="modal-content">
                 <div class="modal-body">
-                    <div class="modal-header">
+                    <div>
                         <h5 class="modal-title">Get Training Quote For Free</h5>
                         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                     </div>
@@ -309,9 +200,10 @@
     <br>
     <section>
         <h2 class="text-center pt-5" style="color:#5d2b7a">OUR <span style="color:#ac8ebd">COURSES</span></h2><br><br>
-        <div class="container w-75 twodivrow">
+        <div class="container w-75 twodivrow" style="transition: 0.01s;">
             <div class="row">
-                <div class="col-lg-6 col-md-6 col-sm-12"><img src="./images/girl2.jpg" alt="girl2" style="height: 331px;">
+                <div class="col-lg-6 col-md-6 col-sm-12"><img src="./images/girl2.jpg" alt="girl2"
+                        style="height: 331px;">
                 </div>
                 <div class="col-lg-6 col-md-6 col-sm-12">
                     <h3 style="
@@ -344,11 +236,56 @@
                     </p>
                 </div>
             </div>
+        </div><br><br>
+        <div class="container w-75">
+            <div class="row">
+                <div class=" col-lg-4 col-md-12">
+                    <div class="card" style="width: 21rem; height: 500px; transition: 0.001s;">
+                        <img src="./images/python.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Python Django - Angular- Full Stack Web Development Expert</h5>
+                            <p class="card-text">Core Python, Basics of Programming, Unix Commands, Advanced Python,
+                                Django Framework, REST API, Git, Angul...</p>
+                            <a href="#" class="btn">VIEW MORE</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-12">
+                    <div class="card" style="width: 21rem;height: 500px; transition: 0.001s;">
+                        <img src="./images/testing.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Software Testing Specialist</h5>
+                            <p class="card-text">Manual Testing, Java foundations, Mobile Testing, Selenium IDE,
+                                Selenium Web driver, Selenium Advanced Web...</p>
+                            <a href="#" class="btn">VIEW MORE</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-12">
+                    <div class="card" style="width: 21rem;height: 500px;transition: 0.001s;">
+                        <img src="./images/mearn.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">MEARN Stack Web Development Expert - Angular & React</h5>
+                            <p class="card-text">HTML, CSS, Javascript, Bootstrap, Git, Typescript, MongoDB, MySQL,
+                                Express.JS, Angular, React.js and Node....</p>
+                            <a href="#" class="btn">VIEW MORE</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
-        <div style="height: 300px;">
-
-        </div>
+        <br>
+        <br>
+        <strong>
+            <div class="button-container-wrap mobile-only-hide">
+                <a href="courses" class="stroked-btn">View all Courses</a>
+            </div>
+        </strong>
+        <br><br><br>
     </section>
+    <div style="height: 300px;">
+
+    </div>
 
 </body>
 
