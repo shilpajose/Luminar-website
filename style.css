@@ -122,7 +122,7 @@ img {
 }
 
 .card {
-    border-radius: none;
+    border-radius: 0;
     border: 0;
 }
 
