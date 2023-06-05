@@ -125,6 +125,9 @@ img {
     border-radius: 0;
     border: 0;
 }
+/* .card img{
+    width: 100%;
+} */
 
 .card:hover {
     transform: scale(1.05);
@@ -166,15 +169,45 @@ img {
     background-color: #5e068a;
     color:white;
 }
+li{
+    list-style-type: none;
+    text-decoration: none;
+    color: #5e068a;
+}
 
-@media (min-width:360px) and (max-width:767px) {
+@media screen and (max-width:767px) {
     #carouselExampleCaptions h1 {
-        color: white;
-        font-size: 20px;
-        font-weight: bold;
+        font-size: 21px;
+    }
+    #carouselExampleCaptions p {
+        font-size: 13px;
     }
 
     #courses {
-        background-color: black;
+        font-size: 12px;
+    }
+    #title{
+        font-size: 17px;
+    }
+    #cin_no{
+        font-size: 15px;
+    }
+    #desc{
+        font-size: 12px;
+    }
+    #learn-more{
+        font-size: 10px;
+    }
+    #our_courses{
+        font-size: 19px;
+    }
+    #data_science{
+        font-size: 14px;
+    }
+    #para{
+        font-size: 12px;
+    }
+    #view_all_courses{
+        font-size: 12px;
     }
 }
