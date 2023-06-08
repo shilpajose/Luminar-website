@@ -124,6 +124,9 @@ img {
 .card {
     border-radius: 0;
     border: 0;
+    width: 23rem; 
+    height: 500px; 
+    transition: 0.001s;
 }
 /* .card img{
     width: 100%;
@@ -209,5 +212,18 @@ li{
     }
     #view_all_courses{
         font-size: 12px;
+        margin-left: -11%;
+    }
+    .card{
+        width: 19rem;
+        height: 450px;
     }
 }
+@media screen and (min-width:768px){
+    .card{
+        margin-left: 15%;
+    }
+    #view_all_courses{
+        margin-left: -9%;
+    }
+} 
