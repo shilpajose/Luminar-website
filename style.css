@@ -132,6 +132,13 @@ img {
     width: 100%;
 } */
 
+.card .two{
+margin-left: 1px;
+}
+.card .three{
+    margin-left: 1px;
+    }
+
 .card:hover {
     transform: scale(1.05);
     box-shadow: 0 4px 8px 0 rgba(132, 130, 130, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
@@ -217,9 +224,10 @@ li{
     .card{
         width: 19rem;
         height: 450px;
+        margin-bottom: 20px;
     }
 }
-@media screen and (min-width:768px){
+@media screen and (min-width:768px) and (max-width:991px){
     .card{
         margin-left: 15%;
     }
